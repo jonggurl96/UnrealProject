@@ -139,8 +139,11 @@
 9. Cesium OSM Buildings를 선택해 빈 지도에 건물 추가
    ![](github_resources/CesiumOSM.png)
 10. Cesium Quick Add Panel에서 Dynamic Pawn을 추가
+    - Location: -179420, -120947, -81320
+    - Rotation(Z, Yaw): 180
    ![](github_resources/CesiumDynamicPawn.png)
 11. 시뮬레이션 결과
+    > - WASD로 이동 가능
     ![](github_resources/CesiumSim.gif)
 
 # Buoyancy
