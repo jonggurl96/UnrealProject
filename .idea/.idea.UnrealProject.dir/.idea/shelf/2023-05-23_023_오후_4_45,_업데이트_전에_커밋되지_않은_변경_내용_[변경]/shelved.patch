@@ -1,0 +1,104 @@
+Index: .idea/.idea.UnrealProject.dir/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.UnrealProject.dir/.idea/.gitignore b/.idea/.idea.UnrealProject.dir/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1684827074892)
++++ b/.idea/.idea.UnrealProject.dir/.idea/.gitignore	(date 1684827074892)
+@@ -0,0 +1,13 @@
++# 디폴트 무시된 파일
++/shelf/
++/workspace.xml
++# Rider에서 무시된 파일
++/.idea.UnrealProject.iml
++/modules.xml
++/contentModel.xml
++/projectSettingsUpdater.xml
++# 에디터 기반 HTTP 클라이언트 요청
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini b/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini
+new file mode 100644
+--- /dev/null	(date 1684827695664)
++++ b/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini	(date 1684827695664)
+@@ -0,0 +1,9 @@
++/Engine=D:/UE_5.1/Engine/Shaders
++/ShaderAutogen=D:/Workspace/UE5.1/UnrealProject/Intermediate/ShaderAutogen
++/Plugin/GLTFExporter=D:/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Shaders
++/Plugin/FX/Niagara=D:/UE_5.1/Engine/Plugins/FX/Niagara/Shaders
++/Plugin/Water=D:/UE_5.1/Engine/Plugins/Experimental/Water/Shaders
++/Plugin/ExrReaderShaders=D:/UE_5.1/Engine/Plugins/Media/ImgMedia/Shaders
++/Plugin/PixelCapture=D:/UE_5.1/Engine/Plugins/Media/PixelCapture/Shaders
++/Plugin/WmfMedia=D:/UE_5.1/Engine/Plugins/Media/WmfMedia/Shaders
++/Plugin/Experimental/ChaosNiagara=D:/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Shaders
+Index: Saved/Config/WindowsEditor/PixelStreaming.ini
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Saved/Config/WindowsEditor/PixelStreaming.ini b/Saved/Config/WindowsEditor/PixelStreaming.ini
+new file mode 100644
+--- /dev/null	(date 1684827690971)
++++ b/Saved/Config/WindowsEditor/PixelStreaming.ini	(date 1684827690971)
+@@ -0,0 +1,1 @@
++
+Index: .idea/.idea.UnrealProject.dir/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.UnrealProject.dir/.idea/vcs.xml b/.idea/.idea.UnrealProject.dir/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1684827699527)
++++ b/.idea/.idea.UnrealProject.dir/.idea/vcs.xml	(date 1684827699527)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea.UnrealProject.dir/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.UnrealProject.dir/.idea/indexLayout.xml b/.idea/.idea.UnrealProject.dir/.idea/indexLayout.xml
+new file mode 100644
+--- /dev/null	(date 1684827072106)
++++ b/.idea/.idea.UnrealProject.dir/.idea/indexLayout.xml	(date 1684827072106)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="UserContentModel">
++    <attachedFolders />
++    <explicitIncludes />
++    <explicitExcludes />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea.UnrealProject.dir/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.UnrealProject.dir/.idea/encodings.xml b/.idea/.idea.UnrealProject.dir/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1684827061595)
++++ b/.idea/.idea.UnrealProject.dir/.idea/encodings.xml	(date 1684827061595)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
++</project>
+\ No newline at end of file
