@@ -7,7 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="README.md Unreal Editor 화면 추가">
+    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="README.md 작명 규칙과 오브젝트, 플러그인. 에디터 설명 추가">
+      <change afterPath="$PROJECT_DIR$/Content/CesiumMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -116,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684827067724</updated>
       <workItem from="1684827069017" duration="1026000" />
-      <workItem from="1684828214833" duration="2422000" />
+      <workItem from="1684828214833" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684829699196</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="README.md 작명 규칙과 오브젝트, 플러그인. 에디터 설명 추가">
+      <created>1684830769145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684830769145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +176,7 @@
     <MESSAGE value="README.md 사진 추가" />
     <MESSAGE value="README.md 와꾸" />
     <MESSAGE value="README.md Unreal Editor 화면 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md Unreal Editor 화면 추가" />
+    <MESSAGE value="README.md 작명 규칙과 오브젝트, 플러그인. 에디터 설명 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md 작명 규칙과 오브젝트, 플러그인. 에디터 설명 추가" />
   </component>
 </project>
