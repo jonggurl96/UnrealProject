@@ -7,7 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="README.md Cesium for Unreal까지 끝냄" />
+    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/CesiumForUnreal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Character.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platforms/HoloLens/Config/HoloLensEngine.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/AxisMapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/BindAction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/MouseAxis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/MouseConFunc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/ProjSettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/SetupPlayerInputComponent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnrealProject.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UnrealProject.uproject" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,27 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\jonggurl\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\jonggurl\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="UnrealProject" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/UnrealProject.uproject" />
@@ -113,7 +131,9 @@
       <option name="presentableId" value="Default" />
       <updated>1684827067724</updated>
       <workItem from="1684827069017" duration="1026000" />
-      <workItem from="1684828214833" duration="3572000" />
+      <workItem from="1684828214833" duration="3866000" />
+      <workItem from="1684974617336" duration="4650000" />
+      <workItem from="1684979489811" duration="4547000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -164,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684831799794</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cesium for Unreal 튜토리얼 완료">
+      <created>1684832073371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684832073372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +208,7 @@
     <MESSAGE value="README.md Unreal Editor 화면 추가" />
     <MESSAGE value="README.md 작명 규칙과 오브젝트, 플러그인. 에디터 설명 추가" />
     <MESSAGE value="README.md Cesium for Unreal까지 끝냄" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md Cesium for Unreal까지 끝냄" />
+    <MESSAGE value="Cesium for Unreal 튜토리얼 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cesium for Unreal 튜토리얼 완료" />
   </component>
 </project>
