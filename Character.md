@@ -119,62 +119,37 @@ UCameraComponent* BackCam;
 
 # Animation 추가
 Unreal은 TutorialTPP Mesh뿐만 아니라 이를 이용하는 애니메이션도 지원해준다.
-> Editor의 GuidedTutorials 플러그인에서 제공하는 **NewBlendSpace1D**, **Tutorial_Idle**, **Tutorial_Walk_Fwd** 3개의 UASSET 파일을 사용한다.   
-> 2개의 Animation Blueprint 클래스를 사용
-1. Animation Blueprint 추가   
-![](github_resources/CreateAnimBP.png)
-2. NewBlendSpace1D를 사용하는 ABP_BlendSpace1D와 StateMachine을 사용하는 ABP_StateMachine 2개 생성
-
-## ABP_BlendSpace1D
-1. ABP_BlendSpace1D 에디터를 열고 우측 하단의 AssetBrowser에서 NewBlendSpace1D를 더블클릭해 에디터 창을 연다.   
+> Unreal Editor의 GuidedTutorials 플러그인에서 제공하는 **NewBlendSpace1D**, **Tutorial_Idle**, **Tutorial_Walk_Fwd** 3개의 UASSET 파일을 사용한다.   
+> Animation Asset은 동작 하나만 정의하고 BlendSpace는 변수 값에 따라 애니메이션들을 어떻게 적용할 건지 정의한다.   
 ![](github_resources/BlendSpace.png)
-2. ABP_BlendSpace1D로 돌아가 AnimGraph를 열고 AssetBrowser에서 NewBlendSpace1D를 드래그해 OutputPose와 연결한다.   
-![](github_resources/ABPBlendSpace1D.png)
-3. NewBlendSpace1D 노드의 Speed parameter를 변수로 승격시킨다.   
-![](github_resources/PromoteToVariable.png)
-4. EventGraph를 열고 아래와 같이 설정, 빈 공간에 우클릭하여 노드를 검색하고 추가할 수 있다.   
+> NewBlendSpace1D는 **Speed**라는 변수 값이 0일 땐 ***Tutorial_Idle*** 애니메이션을 적용하고 
+> 125 이상일 땐 ***Tutorial_Walk_Fwd*** 애니메이션을 적용한다. 
+> Speed 값이 0과 125 사이일 땐 자동으로 두 애니메이션에 보간법을 적용한 듯한 애니메이션을 적용하게 된다.
+
+## Animation Blueprint
+> 애니메이션을 적용하는 방법은 Animation Blueprint와 Animation Asset, Custom Mode를 사용하는 3가지 방법이 있는데 Animation Bluprint를 적용하는 방법은 다음과 같다.
+
+1. 마우스 우클릭 후 Animation Blueprint 만들기
+- AnimInstance의 서브클래스이며 EventGraph와 AnimGraph를 기본으로 제공   
+![](github_resources/CreateAnimBP.png)
+2. Event Graph를 열고 아래와 같이 만들기   
 ![](github_resources/ABPBlendSpace1D_eventgraph.png)
-5. BP_MyCharacter의 AnimClass를 ABP_BlendSpace1D로 선택한 뒤 시뮬레이션을 진행하면 애니메이션이 적용됨.
-
-## ABP_StateMachine
-1. ABP_StateMachine 에디터를 열고 우측 하단의 AssetBrowser에서 Tutorial_Walk_Fwd와 Tutorial_Idle을 볼 수 있음
-2. AnimGraph에 StateMachine을 추가한다.   
-![](github_resources/NewStateMachine.png)
-3. 생성한 StateMachine 노드를 더블클릭하거나 좌측하단의 Graphs 창에서 선택하여 StateMachine을 연다.
-4. 빈 공간에 우클릭 후 Add State를 선택하거나 우측 하단의 Asset Browser에서 애니메이션 에셋을 드래그하면 새 State가 추가된다.   
-![](github_resources/NewState.png)
-5. State를 더블클릭으로 열고 Asset Browser에서 애니메이션 애셋을 드래그 후 연결하면 아래와 같다.    
-![](github_resources/StateDetail.png)
-> State를 만들 때 애셋을 드래그해서 만든 경우 자동으로 애셋이 등록되어있다.
-6. 시작 State의 테두리부터 다음 State의 테두리까지 드래그해 Transition rule을 추가한다.   
-![](github_resources/AddTransition.png)
-7. Transition rule에서 사용할 Speed 변수(float)를 추가하고 Transition rule을 열고 다음과 같이 만든다.   
-![](github_resources/Transition.png)
-8. 모든 State와 Transition rule을 설정한 후 ABP_BlendSpace1D와 똑같은 EventGraph를 만들고 컴파일 한다.
-9. 마찬가지로 BP_MyCharacter의 AnimClass에서 ABP_StateMachine을 선택하면 애니메이션이 적용된다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   > 빈 공간에 우클릭하여 노드를 생성할 수 있다.
+   > 1. 이벤트가 진행되는 동안 CharacterMovementComponent를 읽기 위해 캐스팅
+   > 2. 캐릭터로 캐스팅 된 폰으로부터 CharacterMovementComponent 읽기
+   > 3. GetVelocity 노드로 Velocity 벡터 멤버 읽기
+   > 4. VectorLengthXY 노드로 Velocity 벡터의 X, Y값만 사용하여 벡터의 크기 구하고 Speed 변수에 저장하기
+3. AnimGraph를 열고 우측 하단의 AssetBrowser에서 BlendSpace를 드래그하고 Output Pose에 연결할 수도 있지만 
+동작이 추가될 때마다 새로운 Animation Bluprint를 만들어야 하기 때문에 그렇게 하지 않고 StateMachine을 사용한다.
+4. 빈 공간 우클릭으로 새 State Machine SM_IdleRun을 추가한 후 Output Pose에 연결한다.   
+![](github_resources/ABPanimgraph.png)
+5. SM_IdleRun을 더블클릭하여 열면 우클릭으로 새 State를 추가할 수 있다. 
+대기상태부터 달리기까지 연결된 NewBlendSpace1D를 사용할 State, IdleRun을 추가한다.
+6. IdleRun State와 Entry를 연결한다. 새로운 동작이 추가될 때마다 새로운 BlendSpace를 사용하는 새로운 State를 만들고 연결한 뒤 Transition Rule만 적용하면 된다.
+7. State마다 Animation 또는 BlendSpace를 추가할 수 있다. NewBlendSpace1D를 추가한다.
+8. 전달인자로 Speed 값이 필요한데 Event Graph에서 사용한 변수를 그대로 가져와 연결하고 컴파일하면 다음과 같다.   
+![](github_resources/StateCompile.png)
+9. 이제 아래와 같이 BP_MyCharacter 블루프린트 에디터를 열고 Animation 탭의 Anim Class를 ABP_IdleRun을 선택한다.   
+![](github_resources/SelectABP.png)
+10. 컴파일 후 시뮬레이션 해보면 대기 시와 이동 시 애니메이션이 적용된 모습을 볼 수 있다.   
+![](github_resources/CharAnimSim.gif)
