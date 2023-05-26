@@ -3,8 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "MyCharacter.generated.h"
+
 
 UCLASS()
 class UNREALPROJECT_API AMyCharacter : public ACharacter
@@ -26,19 +29,21 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-// UFUNCTIONS...
-public:
+	void AddMovementInput(float Value, EAxis::Type AxisType);
+
+	/* ==================== UPROPERTIES... ==================== */
+	UPROPERTY(VisibleAnywhere)
+	USpringArmComponent* BackSpring;
+	
+	UPROPERTY(VisibleAnywhere)
+	UCameraComponent* BackCam;
+
+	/* ==================== UFUNCTIONS... ==================== */
 	UFUNCTION()
 	void MoveForward(float Value);
 
 	UFUNCTION()
 	void MoveRight(float Value);
-
-	UFUNCTION()
-	void Turn(float Value);
-
-	UFUNCTION()
-	void LookUp(float Value);
 
 	UFUNCTION()
 	void StartJump();

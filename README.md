@@ -102,6 +102,12 @@
 5. exe 파일로 배포
 6. Pixel Streaming을 이용해 Web Streaming
 
+# Livecoding 설정방법
+- livecoding 활성화
+  ![](github_resources/livecodingsetting.png)
+- 콘솔창 로그 깨짐 해결 방법
+  ![](github_resources/livecoding.png)
+
 # Cesium for Unreal
 - [Cesium for Unreal README.md](CesiumForUnreal.md)
 

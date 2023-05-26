@@ -8,31 +8,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/CesiumForUnreal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Character.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/HoloLens/Config/HoloLensEngine.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/AxisMapping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/BindAction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/MouseAxis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/MouseConFunc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/ProjSettings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/SetupPlayerInputComponent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Animations/ABP_BlendSpace1D.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Animations/ABP_StateMachine.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MyCharacter.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D_eventgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/AddTransition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/BlendSpace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/CharacterMesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/CreateAnimBP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/CreateCam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/NewState.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/NewStateMachine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/PromoteToVariable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/StateDetail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/Transition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/headerfile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/livecodingsetting.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Character.md" beforeDir="false" afterPath="$PROJECT_DIR$/Character.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/CharacterMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CharacterMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnrealProject.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UnrealProject.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/Private/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/Private/MyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/Public/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/Public/MyCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_resources/MouseAxis.png" beforeDir="false" afterPath="$PROJECT_DIR$/github_resources/MouseAxis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_resources/SetupPlayerInputComponent.png" beforeDir="false" afterPath="$PROJECT_DIR$/github_resources/SetupPlayerInputComponent.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Source/Programs/UnrealBuildTool/Platform/Windows/UEBuildWindows.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2QBVfAAKZaN7B825V8g3XqGpdDu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,13 +73,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -133,7 +160,16 @@
       <workItem from="1684827069017" duration="1026000" />
       <workItem from="1684828214833" duration="3866000" />
       <workItem from="1684974617336" duration="4650000" />
-      <workItem from="1684979489811" duration="4547000" />
+      <workItem from="1684979489811" duration="4947000" />
+      <workItem from="1684986601927" duration="6561000" />
+      <workItem from="1684995042534" duration="1336000" />
+      <workItem from="1684997609801" duration="624000" />
+      <workItem from="1684998325998" duration="369000" />
+      <workItem from="1684998728168" duration="5139000" />
+      <workItem from="1685059763085" duration="292000" />
+      <workItem from="1685060118526" duration="4175000" />
+      <workItem from="1685064422097" duration="1545000" />
+      <workItem from="1685066071878" duration="10752000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -191,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684832073372</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="AMyCharacter build">
+      <created>1684986338071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684986338071</updated>
+    </task>
+    <task id="LOCAL-00010" summary="AMyCharacter build">
+      <created>1684986364445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684986364445</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +259,11 @@
     <MESSAGE value="README.md 작명 규칙과 오브젝트, 플러그인. 에디터 설명 추가" />
     <MESSAGE value="README.md Cesium for Unreal까지 끝냄" />
     <MESSAGE value="Cesium for Unreal 튜토리얼 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cesium for Unreal 튜토리얼 완료" />
+    <MESSAGE value="AMyCharacter build" />
+    <option name="LAST_COMMIT_MESSAGE" value="AMyCharacter build" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
