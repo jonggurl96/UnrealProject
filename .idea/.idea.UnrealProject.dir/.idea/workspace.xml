@@ -7,23 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="Animation 추가">
-      <change afterPath="$PROJECT_DIR$/Content/Animations/ABP_IdleRun.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/ABPanimgraph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/SelectABP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/StateCompile.png" afterDir="false" />
+    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Character.md" beforeDir="false" afterPath="$PROJECT_DIR$/Character.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animations/ABP_BlendSpace1D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animations/ABP_StateMachine.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MyCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MyCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/CharacterMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CharacterMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D_eventgraph.png" beforeDir="false" afterPath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D_eventgraph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/NewState.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/NewStateMachine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/PromoteToVariable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/StateDetail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/Private/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/Private/MyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/Public/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/Public/MyCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +22,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Source/Programs/UnrealBuildTool/Platform/Windows/UEBuildWindows.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -65,11 +49,13 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "LiveTemplatesSettingsId",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -158,7 +144,8 @@
       <workItem from="1685059763085" duration="292000" />
       <workItem from="1685060118526" duration="4175000" />
       <workItem from="1685064422097" duration="1545000" />
-      <workItem from="1685066071878" duration="14624000" />
+      <workItem from="1685066071878" duration="15156000" />
+      <workItem from="1685502350309" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -237,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685082833340</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Animation 추가 완료">
+      <created>1685089119248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685089119248</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +251,8 @@
     <MESSAGE value="Cesium for Unreal 튜토리얼 완료" />
     <MESSAGE value="AMyCharacter build" />
     <MESSAGE value="Animation 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animation 추가" />
+    <MESSAGE value="Animation 추가 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animation 추가 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

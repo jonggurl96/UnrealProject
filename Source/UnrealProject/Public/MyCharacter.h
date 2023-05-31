@@ -29,7 +29,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void AddMovementInput(float Value, EAxis::Type AxisType);
+	FRotator MakeRotator() const;
 
 	/* ==================== UPROPERTIES... ==================== */
 	UPROPERTY(VisibleAnywhere)
