@@ -108,6 +108,9 @@
 - 콘솔창 로그 깨짐 해결 방법
   ![](github_resources/livecoding.png)
 
+# *C++ Project 주의사항*
+- AMyPawn이라는 클래스 생성 시 **MyPawn.h** 파일에 **#include "MyPawn.generated.h"** 코드가 있는데 추가로 include할 라이브러리가 있다면 ***반드시 #include "MyPawn.generated.h" 위에 작성***해야 한다.
+
 # Cesium for Unreal
 - [Cesium for Unreal README.md](CesiumForUnreal.md)
 

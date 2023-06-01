@@ -7,23 +7,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="Animation 추가">
-      <change afterPath="$PROJECT_DIR$/Content/Animations/ABP_IdleRun.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/ABPanimgraph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/SelectABP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/StateCompile.png" afterDir="false" />
+    <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Aircraft.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/Eclipse5.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/LooL.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/Wwhitepaint_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/board_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/body_texture_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/bump-15000x15000_out.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/carpaint.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/chrome_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/cockpit.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/glass_clear_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/light_white_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/metal_rough_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/metal_rough_plus_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/metal_yellow_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/plastic_rough_black_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/plastic_rough_black_plus_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/plastic_rough_grey_plus_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/tire_001.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/SFO_to_CPH_flight_data_WGS84.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlightTracker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/FT_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/FT_SFP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/FT_STcam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/FT_Spline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/FT_Timeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/FT_Transform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/ImportCSV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/LevelBP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/SFO_to_CPH_flight_data_WGS84.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/Splines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/plane/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/plane/source/LooL.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/plane/textures/Eclipse5_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/plane/textures/bump-15000x15000 out_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/plane/textures/cockpit_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/shelf/2023-05-23_023__4_45__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/shelf/2023-05-23_023__4_45__________.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Character.md" beforeDir="false" afterPath="$PROJECT_DIR$/Character.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animations/ABP_BlendSpace1D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animations/ABP_StateMachine.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MyCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MyCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/CharacterMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CharacterMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D_eventgraph.png" beforeDir="false" afterPath="$PROJECT_DIR$/github_resources/ABPBlendSpace1D_eventgraph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/NewState.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/NewStateMachine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/PromoteToVariable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_resources/StateDetail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CesiumForUnreal.md" beforeDir="false" afterPath="$PROJECT_DIR$/CesiumForUnreal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/UnrealProject.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/UnrealProject.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +63,9 @@
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Plugins/Marketplace/CesiumForUnreal/Source/ThirdParty/include/CesiumGeospatial/Ellipsoid.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Plugins/Marketplace/CesiumForUnreal/Source/ThirdParty/include/glm/detail/type_vec4.hpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Plugins/Marketplace/CesiumForUnreal/Source/ThirdParty/include/glm/fwd.hpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Source/Programs/UnrealBuildTool/Platform/Windows/UEBuildWindows.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,30 +83,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\jonggurl\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\jonggurl\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\jonggurl\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="UnrealProject" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/UnrealProject.uproject" />
@@ -159,6 +186,12 @@
       <workItem from="1685060118526" duration="4175000" />
       <workItem from="1685064422097" duration="1545000" />
       <workItem from="1685066071878" duration="14624000" />
+      <workItem from="1685520587122" duration="1892000" />
+      <workItem from="1685522830068" duration="412000" />
+      <workItem from="1685575203619" duration="611000" />
+      <workItem from="1685575868689" duration="327000" />
+      <workItem from="1685576229428" duration="166000" />
+      <workItem from="1685576519280" duration="15029000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -244,6 +277,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
