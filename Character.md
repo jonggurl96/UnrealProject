@@ -4,14 +4,12 @@
 Basic type level 생성 후 이름은 CharacterMap으로 저장
 
 ## Character 개요
-- Character class 생성
-- Axis Mapping 설정 후 캐릭터 동작 구현
-- 마우스 카메라 컨트롤 구현
-- 점프 구현
-- Build 후 Blueprint 계승 및 Character Mesh 추가
-- Animation 추가
-  - BlendSpace1D 사용
-  - State Machine 사용
+- [Character class 생성](#character-class-생성)
+- [Axis Mapping 설정 후 캐릭터 동작 구현](#axis-mapping-설정-후-캐릭터-동작-구현)
+- [마우스 카메라 컨트롤 구현](#마우스-카메라-컨트롤-구현)
+- [점프 구현](#점프-구현)
+- [Build 후 Blueprint 계승 및 Character Mesh 추가](#build-후-blueprint-계승-및-character-mesh-추가)
+- [Animation 추가](#animation-추가)
 
 # Character class 생성
 - New C++ Class... 선택   

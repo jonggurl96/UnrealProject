@@ -2,17 +2,16 @@
 
 ## 일반적인 Unreal Project의 진행 순서
 1. AActor 클래스를 상속받는 C++ 클래스를 작성 후 빌드
-   [사진 넣을거임]()
+   ![사진 넣을거임](github_resources/Class.png)
 2. 빌드한 소스코드로부터 블루프린트 생성 후 컴파일
-   [사진 넣을거임]()
+   ![사진 넣을거임](github_resources/BPfromClass.png)
 3. 컴파일 된 블루프린트를 뷰포트에 배치하여 맵 완성
-   [사진 넣을거임]()
+   ![사진 넣을거임](github_resources/Viewport.png)
 4. 기본 맵 설정 및 맵을 연결해 월드 생성 후 배포
    [사진 넣을거임](exe파일 하나 보여주면 되겠지)
 
 # Editor Tools
-<img src="https://img.shields.io/badge/Rider-purple?style=flat&logo=Rider&logoColor=#000000"/>
-<br>
+<img src="https://img.shields.io/badge/Rider 2023.1.2-purple?style=flat&logo=Rider&logoColor=#000000"/>
 <img src="https://img.shields.io/badge/Unreal Editor 5.1.1-black?style=flat&logo=unrealengine&logoColor=#0E1128"/>
 
 ## Unreal Editor 화면
@@ -112,7 +111,8 @@
 - AMyPawn이라는 클래스 생성 시 **MyPawn.h** 파일에 **#include "MyPawn.generated.h"** 코드가 있는데 추가로 include할 라이브러리가 있다면 ***반드시 #include "MyPawn.generated.h" 위에 작성***해야 한다.
 
 # Cesium for Unreal
-- [Cesium for Unreal README.md](CesiumForUnreal.md)
+- [Cesium for Unreal - Cesium ion](CesiumForUnreal_ion.md)
+- [Cesium for Unreal - Geoserver](CesiumGeoserver.md)
 
 # Character
 - [Character README.md](Character.md)
