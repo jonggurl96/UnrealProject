@@ -115,15 +115,16 @@
 - [Cesium for Unreal - Geoserver](CesiumGeoserver.md)
 
 # Character
-- [Character README.md](Character.md)
+- [Character](Character.md)
 
 # Buoyancy
-- [Buoyancy README.md]()
+- [Buoyancy](Buoyancy.md)
 
 # Map Switching
-- [Map Switching README.md]()
+- [Map Switching]()
 
 # Exe Deployment
+- 
 
 # Pixel Streaming
 

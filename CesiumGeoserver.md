@@ -4,6 +4,10 @@
 > - **Cesium ion Imagery(\*.tlf)** Load 결과
 > ![](github_resources/GeoserverNotAuth.png)
 
+|Latitude|Longitude|Height|
+|--------|---------|------|
+|37.56226|126.82703|1000.0|
+
 # Geoserver Authorization
 > Geoserver Request header에 Authorization 필드가 요구되어 살펴보니 header를 설정할 수 있는 컴포넌트를 
 > 새로 만드는 게 낫다는 생각에 기존의 CesiumWebMapServiceRasterOverlay 컴포넌트를 상속받은 CesiumAuthorizedWmsRasterOverlay 컴포넌트를 추가함   
