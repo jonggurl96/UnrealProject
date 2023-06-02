@@ -1,4 +1,4 @@
-# Cesium for Unreal
+# Cesium for Unreal - Cesium ion
 1. 프로젝트를 생성하고 Rider에서 할 모든 작업이 종료되면 RiderLink, Cesium for Unreal, Pixel Streamin을 활성화한 후 재시작한다.
 2. 뷰포트 왼쪽에 Cesium 탭이 생성되어있고 아래와 같은 에러 로그가 보이지만 정상이다.
    ![](github_resources/WaterBodyCollision.png)
@@ -28,3 +28,4 @@
         ![](github_resources/CesiumSim.gif)
 
 - [Cesium for Unreal example - Build a Flight Tracker with Cesium for Unreal](FlightTracker.md)
+- [geoserver와 연동하기](CesiumGeoserver.md)
