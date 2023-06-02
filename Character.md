@@ -53,22 +53,28 @@ UCameraComponent* BackCam;
     UFUNCTION()
     void AMyCharacter::MoveForward(float Value);
     
+    UFUNCTION()
+    void AMyCharacter::MoveForward(float Value);
+  
+    // 컨트롤러의 Rotate 값의 Yaw 값을 기반으로 새로운 Rotator 생성
+    FRotator MakeRotator();
+    
     // AMyCharacter.cpp
+    FRotator AMyCharacter::MakeRotator() {
+        return FRotator(0.f, GetControlRotation().Yaw, 0.f);
+    }
+  
     void AMyCharacter::MoveForward(float Value) {
-        /* Controller Rotation 값을 저장 */
-        FRotator ControllerRotation = GetControlRotation();
-        
-        /* 캐릭터를 중심(0, 0)으로 한 행렬 생성  */
-        FRotationMatrix ControllerRotationMatrix = FRotationMatrix(ControllerRotation);
-        
+        AddMovementInput(MakeRotator.Vector(), Value);
+    }
+  
+    void AMyCharacter::MoveRight(float Value) {
         /* 행렬에서 캐릭터가 바라보는 방향의 축을 벡터값으로 반환 */
         /* EAxis::X - 캐릭터가 바라보는 방향 */
         /* EAxis::Y - 캐릭터가 바라보는 방향의 오른쪽 */
         /* EAxis::Z - 캐릭터 위의 하늘 방향 */
-        FVector ForwardVector = ControllerRotationMatrix.GetScaledAxis(EAxis::X);
-        
-        /* 캐릭터가 바라보는 방향 벡터로 Value 값만큼 이동 */
-        Super::AddMovementInput(ForwardVector, Value);
+        FVector RightVector = FRotationMatrix(MakeRotator()).GetScaledAxis(EAxis::Y);
+        AddMovementInput(RightVector, Value);
     }
     ```
 

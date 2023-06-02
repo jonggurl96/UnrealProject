@@ -78,20 +78,20 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-void AMyCharacter::AddMovementInput(float Value, EAxis::Type AxisType)
+FRotator AMyCharacter::MakeRotator() const
 {
-	FVector WorldDirection = FRotationMatrix(GetControlRotation()).GetScaledAxis(AxisType);
-	Super::AddMovementInput(WorldDirection, Value);
+	return FRotator(0.0f, GetControlRotation().Yaw, 0.0f);
 }
 
 void AMyCharacter::MoveForward(float Value)
 {
-	AddMovementInput(Value, EAxis::X);
+	AddMovementInput(MakeRotator().Vector(), Value);
 }
 
 void AMyCharacter::MoveRight(float Value)
 {
-	AddMovementInput(Value, EAxis::Y);
+	FVector RightVector = FRotationMatrix(MakeRotator()).GetScaledAxis(EAxis::Y);
+	AddMovementInput(RightVector, Value);
 }
 
 void AMyCharacter::StartJump()

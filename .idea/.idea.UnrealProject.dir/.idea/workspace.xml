@@ -8,48 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Aircraft.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/Eclipse5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/LooL.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/Wwhitepaint_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/board_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/body_texture_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/bump-15000x15000_out.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/carpaint.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/chrome_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/cockpit.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/glass_clear_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/light_white_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/metal_rough_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/metal_rough_plus_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/metal_yellow_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/plastic_rough_black_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/plastic_rough_black_plus_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/plastic_rough_grey_plus_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Developers/jonggurl/Collections/Plane/tire_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/SFO_to_CPH_flight_data_WGS84.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlightTracker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/FT_M.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/FT_SFP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/FT_STcam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/FT_Spline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/FT_Timeline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/FT_Transform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/ImportCSV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/LevelBP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/SFO_to_CPH_flight_data_WGS84.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/Splines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/plane/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/plane/source/LooL.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/plane/textures/Eclipse5_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/plane/textures/bump-15000x15000 out_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/plane/textures/cockpit_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/shelf/2023-05-23_023__4_45__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/shelf/2023-05-23_023__4_45__________.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/CesiumGeoserverMap.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UnrealProject/Private/CesiumAuthorizedWMSRasterOverlay.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UnrealProject/Public/CesiumAuthorizedWMSRasterOverlay.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CesiumForUnreal.md" beforeDir="false" afterPath="$PROJECT_DIR$/CesiumForUnreal.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/UnrealProject.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/UnrealProject.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/Private/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/Private/MyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealProject/Public/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealProject/Public/MyCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnrealProject.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UnrealProject.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +26,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Plugins/Marketplace/CesiumForUnreal/Source/ThirdParty/include/CesiumGeospatial/Ellipsoid.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Plugins/Marketplace/CesiumForUnreal/Source/ThirdParty/include/glm/detail/type_vec4.hpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Plugins/Marketplace/CesiumForUnreal/Source/ThirdParty/include/glm/fwd.hpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Source/Programs/UnrealBuildTool/Platform/Windows/UEBuildWindows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../UE_5.1/Engine/Source/ThirdParty/WebRTC/4664/Include/base/threading/hang_watcher.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UnrealProject/Private/PlaneTrack.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UnrealProject/Public/PlaneTrack.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,7 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CppUnrealEngineOptionsId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -192,6 +159,9 @@
       <workItem from="1685575868689" duration="327000" />
       <workItem from="1685576229428" duration="166000" />
       <workItem from="1685576519280" duration="15029000" />
+      <workItem from="1685594413667" duration="2837000" />
+      <workItem from="1685662633303" duration="6180000" />
+      <workItem from="1685669031407" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -270,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685082833340</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="FlightTrack">
+      <created>1685594713036</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685594713036</updated>
+    </task>
+    <task id="LOCAL-00013" summary="FightTrack">
+      <created>1685594809814</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685594809814</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +285,9 @@
     <MESSAGE value="Cesium for Unreal 튜토리얼 완료" />
     <MESSAGE value="AMyCharacter build" />
     <MESSAGE value="Animation 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animation 추가" />
+    <MESSAGE value="FlightTrack" />
+    <MESSAGE value="FightTrack" />
+    <option name="LAST_COMMIT_MESSAGE" value="FightTrack" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
