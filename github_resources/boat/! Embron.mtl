@@ -1,0 +1,292 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 23-04-25, 04:00
+
+newmtl standard6-4079167
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.7568 0.7568 0.7568 
+Kd 0.7568 0.7568 0.7568 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+map_Ka Parquet 15.jpg
+map_Kd Parquet 15.jpg
+
+newmtl standard2-4079167
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.7568 0.7568 0.7568 
+Kd 0.7568 0.7568 0.7568 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Parquet 15.jpg
+map_Kd Parquet 15.jpg
+
+newmtl standard-1-4079167
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.7568 0.7568 0.7568 
+Kd 0.7568 0.7568 0.7568 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Parquet 15.jpg
+map_Kd Parquet 15.jpg
+
+newmtl Metal 4-9408400
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.43919998 0.43919998 0.43919998 
+Kd 0.43919998 0.43919998 0.43919998 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+map_Ka Metal 4.png
+map_Kd Metal 4.png
+
+newmtl standard-14145496
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.1529 0.1529 0.1529 
+Kd 0.1529 0.1529 0.1529 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-8359844
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.43519998 0.3568 
+Kd 0.498 0.43519998 0.3568 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard9
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.498 0.498 
+Kd 0.498 0.498 0.498 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard1-5921371-9342607
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.44309998 0.44309998 0.44309998 
+Kd 0.44309998 0.44309998 0.44309998 
+Ks 0.48229998 0.48229998 0.48229998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-264027325-381533630-5921371-9342607
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.44309998 0.44309998 0.44309998 
+Kd 0.44309998 0.44309998 0.44309998 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+map_Ka Steel Sheet.png
+map_Kd Steel Sheet.png
+
+newmtl standard-15
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Cream 2.jpg
+map_Kd Cream 2.jpg
+
+newmtl standard13
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4901 0.4901 0.4901 
+Kd 0.4901 0.4901 0.4901 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka Burgandy .jpg
+map_Kd Burgandy .jpg
+
+newmtl standard13
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.498 0.498 
+Kd 0.498 0.498 0.498 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Parquet 15.jpg
+map_Kd Parquet 15.jpg
+
+newmtl standard-136849451-1761607680
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-58555781-12944521-136849451
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.17639999 0.17639999 0.17639999 
+Kd 0.17639999 0.17639999 0.17639999 
+Ks 0.4705 0.4705 0.4705 
+Ke 0.0 0.0 0.0 
+
+newmtl standard4-1406325459-13684945-136849451-1761607680
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.4705 0.4705 0.4705 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-13
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Cream 2.jpg
+map_Kd Cream 2.jpg
+
+newmtl standard-10513260-8510409
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.49409997 0.14109999 0.2156 
+Kd 0.49409997 0.14109999 0.2156 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Cream 2.jpg
+map_Kd Cream 2.jpg
+
+newmtl standard-13-8510409
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.49409997 0.14109999 0.2156 
+Kd 0.49409997 0.14109999 0.2156 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Cream 2.jpg
+map_Kd Cream 2.jpg
+
+newmtl standard1-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+map_Ka Cream 2.jpg
+map_Kd Cream 2.jpg
+
+newmtl standard-10513260-9721945-8510409
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.49409997 0.14109999 0.2156 
+Kd 0.49409997 0.14109999 0.2156 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+map_Ka Cream 2.jpg
+map_Kd Cream 2.jpg
+
+newmtl standard-15527149
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0705 0.0705 0.0705 
+Kd 0.0705 0.0705 0.0705 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard14
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.498 0.498 
+Kd 0.498 0.498 0.498 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-2960686
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.8196 0.8196 0.8196 
+Kd 0.8196 0.8196 0.8196 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard35
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4901 0.4901 0.4901 
+Kd 0.4901 0.4901 0.4901 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka Oil.jpg
+map_Kd Oil.jpg
+
+newmtl standard9-156587351
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.058799997 0.058799997 0.058799997 
+Kd 0.058799997 0.058799997 0.058799997 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+
+newmtl standard9-129612221
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.21959999 0.21959999 0.21959999 
+Kd 0.21959999 0.21959999 0.21959999 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+

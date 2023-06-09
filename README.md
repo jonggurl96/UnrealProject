@@ -10,9 +10,17 @@
 4. 기본 맵 설정 및 맵을 연결해 월드 생성 후 배포
    [사진 넣을거임](exe파일 하나 보여주면 되겠지)
 
-# Editor Tools
+# Editor Tools & Plugins
 <img src="https://img.shields.io/badge/Rider 2023.1.2-purple?style=flat&logo=Rider&logoColor=#000000"/>
 <img src="https://img.shields.io/badge/Unreal Editor 5.1.1-black?style=flat&logo=unrealengine&logoColor=#0E1128"/>
+<img src="https://img.shields.io/badge/Cesium for Unreal 1.26.0-blueviolet?style=flat"/>
+<img src="https://img.shields.io/badge/RiderLink 2023.1.0.282-green?style=flat"/>
+<img src="https://img.shields.io/badge/UnrealLink 2023.1.0.282-yellow?style=flat"/>
+<img src="https://img.shields.io/badge/PixelStreaming 1.0-yellowgreen?style=flat"/>
+
+Rider link
+Unreal link
+Pixel Streaming
 
 ## Unreal Editor 화면
 ![](github_resources/Editor.png)
