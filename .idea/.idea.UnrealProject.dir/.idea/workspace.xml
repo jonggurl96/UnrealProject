@@ -8,26 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_FloatableMarble.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Floating.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/Heightmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/Landscape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/Landscape1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/WaterBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/! Embron.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/Burgandy .jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/Cream 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/Metal 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/Oil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/Parquet 15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github_resources/boat/Steel Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeoju_all_xyz_data_wgs84-img2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Buoyancy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Buoyancy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Floating.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Floating.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BuoyancyMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BuoyancyMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/CesiumMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CesiumMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +174,8 @@
       <workItem from="1686181269905" duration="4408000" />
       <workItem from="1686197528688" duration="1384000" />
       <workItem from="1686199593741" duration="5224000" />
-      <workItem from="1686270067435" duration="641000" />
+      <workItem from="1686270067435" duration="1614000" />
+      <workItem from="1686295784816" duration="2384000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -311,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685693053047</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Buoyancy Boat 추가">
+      <created>1686271024865</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686271024865</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +340,8 @@
     <MESSAGE value="Geoserver Authorization, Cesium for Unreal 연동" />
     <MESSAGE value="README Update" />
     <MESSAGE value="Cesium Water setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cesium Water setting" />
+    <MESSAGE value="Buoyancy Boat 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buoyancy Boat 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

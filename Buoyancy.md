@@ -1,5 +1,6 @@
 # Buoyancy
 > - Cesium for Unreal Plugin: 지형 생성
+>   - Cesuim에 water plugin 적용이 안됨
 > - Widget Blueprint: 수위 조절 가능한 User Interface 생성
  
 # Cesium World Map
