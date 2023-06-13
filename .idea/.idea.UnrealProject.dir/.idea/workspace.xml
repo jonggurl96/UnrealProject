@@ -8,9 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c318b3b-ddbb-4c4f-9d52-ddef0ac263b2" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/github_resources/LevelEditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/UpdateWBC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/WBCLocation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github_resources/WaterBodyComponentMovable.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealProject.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Buoyancy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Buoyancy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Floating.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Floating.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BuoyancyMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BuoyancyMap.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +178,8 @@
       <workItem from="1686197528688" duration="1384000" />
       <workItem from="1686199593741" duration="5224000" />
       <workItem from="1686270067435" duration="1614000" />
-      <workItem from="1686295784816" duration="2384000" />
+      <workItem from="1686295784816" duration="2777000" />
+      <workItem from="1686616477693" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1684827907147</created>
@@ -303,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686271024865</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="WaterBodyComponent Relative Location Update">
+      <created>1686298587883</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686298587883</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +352,8 @@
     <MESSAGE value="README Update" />
     <MESSAGE value="Cesium Water setting" />
     <MESSAGE value="Buoyancy Boat 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buoyancy Boat 추가" />
+    <MESSAGE value="WaterBodyComponent Relative Location Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="WaterBodyComponent Relative Location Update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

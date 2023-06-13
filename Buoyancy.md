@@ -78,3 +78,19 @@ Cesium for Unreal 플러그인은 Cesium을 Landscape로 변경 불가
 > [/Script/Engine.CollisionProfile]
 > +Profiles=(Name="WaterBodyCollision",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="",CustomResponses=((Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="Default Water Collision Profile (Created by Water Plugin)")
 > ```
+
+# Water Level Control
+1. Open Level Blueprint
+2. beginPlay 시 Water Body Component Mobility Movable로 변경   
+![](github_resources/WaterBodyComponentMovable.png)
+3. Create Function **UpDownWaterLevel**
+4. Parameter 값에 의해 UpDownFactor 변경 (+100 / -100)
+5. Water Body Component New Relative Location 생성 - 현재 Location Z값에 UpDownFactor 추가
+6. 생성된 벡터값으로 Location 변경   
+![](github_resources/WBCLocation.png)
+7. Water Body Component Location이 변경될 때마다 update   
+![](github_resources/UpdateWBC.png)
+8. Level Blueprint Editor로 돌아와서 키보드 위 아래 화살표로 조절 가능하도록 설정   
+![](github_resources/LevelEditor.png)
+9. 결과   
+![](github_resources/WaterLevelUpdate.png)
